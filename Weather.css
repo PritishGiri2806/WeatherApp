@@ -13,17 +13,20 @@ body {
     background-size: cover;
 
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header h1{
-    color:rgb(0, 0, 0);
+
+.header h1 {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#input{
+
+#input {
     font-size: 18px;
     text-align: center;
     padding: 5px 10px;
@@ -32,7 +35,8 @@ body {
     border-radius: 15px;
     background: aliceblue;
 }
-#search{
+
+#search {
     background: cadetblue;
     padding: 5px 20px;
     color: aliceblue;
@@ -42,7 +46,8 @@ body {
     cursor: pointer;
     border: none;
 }
-main{
+
+main {
     display: grid;
     grid-template-columns: 1fr 5px 1fr;
     grid-column-gap: 25px;
@@ -51,50 +56,60 @@ main{
     color: aliceblue;
 
 }
-.weather{
+
+.weather {
     text-align: center;
     color: aliceblue;
 }
-#city{
+
+#city {
     font-size: 30px;
 }
-.weather img{
+
+.weather img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: rgba(240,248,255,0.4);
+    background: rgba(240, 248, 255, 0.4);
 }
-#temperature{
+
+#temperature {
     font-size: 50px;
     margin: 0;
     margin-left: 30px;
     margin-bottom: 10px;
 }
-.temp-box{
+
+.temp-box {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px 0;
 }
-#clouds{
+
+#clouds {
     font-size: 20px;
-    background: rgba(153,205,50,0.75);
+    background: rgba(153, 205, 50, 0.75);
     padding: 2px 20px;
     border-radius: 15px;
+    text-transform: capitalize;
 }
-.next{
+
+.next {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
     font-weight: 600;
 }
-.next p{
+
+.next p {
     margin: 3px 0;
 }
-.cast-header{
+
+.cast-header {
     color: aliceblue;
-    background: rgba(254,189,132,0.5);
+    background: rgba(254, 189, 132, 0.5);
     width: max-content;
     padding: 5px 20px;
     border-radius: 20px;
@@ -102,27 +117,37 @@ main{
     margin-bottom: 5px;
     text-transform: capitalize;
 }
-.time, .date{
-    color: rgb(254,189,132);
+
+.time,
+.date {
+    color: rgb(254, 189, 132);
 }
-.desc{
-    color: rgb(196,255,77);
+
+.desc,
+.description {
+    color: rgb(196, 255, 77);
+    text-transform: capitalize;
 }
-.divider1, .divider2{
-    background: rgba(254,189,132,0.5);
+
+.divider1,
+.divider2 {
+    background: rgba(254, 189, 132, 0.5);
     height: 200px;
     border-radius: 5px;
 }
-.divider2{
+
+.divider2 {
     height: 5px;
     width: 30%;
     margin: 0 auto;
 }
-.forecastd{
+
+.forecastd {
     margin: 20px 50px;
     color: aliceblue;
 }
-.weekF{
+
+.weekF {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
